@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Node / Hardhat
+node_modules/
+artifacts/
+cache/
+types/
+
+# Jupyter
+.ipynb_checkpoints/
